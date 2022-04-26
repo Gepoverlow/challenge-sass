@@ -12,13 +12,11 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
 }
-
-article {
+body article {
   display: flex;
   flex-wrap: wrap;
 }
-
-article section {
+body article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
@@ -30,13 +28,11 @@ article section {
   overflow: auto;
   box-sizing: border-box;
 }
-
-article section#selling-points {
+body article section #selling-points {
   flex-grow: 2;
   flex-basis: 100%;
 }
-
-article code {
+body article code {
   background: #000;
   border: 1px solid #ddd;
   color: #666;
@@ -50,56 +46,46 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-
-article code.before {
+body article code .before {
   float: left;
   width: 40%;
 }
-
-article code.after {
+body article code .after {
   float: right;
   width: 40%;
 }
-
-h1,
-h2,
-h6 {
+body h1,
+body h2,
+body h6 {
   color: #6b8eff;
 }
-
-h1 {
+body h1 {
   text-align: center;
 }
-
-h6 {
+body h6 {
   text-align: center;
   font-size: 2em;
   margin-bottom: 0px;
 }
-
-.message,
-.success,
-.error,
-.warning {
+body .message,
+body .success,
+body .error,
+body .warning {
   border: 1px solid #ccc;
   color: #2748b3;
   background-color: #000;
   width: 100%;
 }
-
-.success {
+body .success {
   background-color: green;
 }
-
-.error {
+body .error {
   background-color: red;
 }
-
-.warning {
+body .warning {
   background-color: orange;
 }
-
-footer > h6 {
+body footer h6 {
   padding: 16px;
 }
 
